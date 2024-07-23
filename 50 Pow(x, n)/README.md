@@ -1,3 +1,8 @@
+problem link: https://leetcode.com/problems/powx-n/
+problem name: Pow(x, n)
+problem difficulty: Medium
+
+
 # Intuition
 The problem is to calculate the power of a number. We can use the fast power algorithm to solve this problem. The fast power algorithm is a divide and conquer algorithm that can calculate the power of a number in $$O(\log n)$$ time complexity. The algorithm is based on the following observation:
 
@@ -37,3 +42,4 @@ public:
         return res;
     }
 };
+```
